@@ -1,0 +1,66 @@
+
+.bg-overlay {
+    background-image: -moz-linear-gradient(to right, #009dab 0%, #7dccc3 100%);
+    background-image: -webkit-linear-gradient(to right, #009dab 0%, #7dccc3 100%);
+    background-image: -ms-linear-gradient(to right, #009dab 0%, #7dccc3 100%);
+    background-image: linear-gradient(to right, #009dab 0%, #7dccc3 100%);
+    background-color: #2575fc;
+}
+
+.bg-custom {
+    background-image: -moz-linear-gradient(to right, #009dab 0%, #7dccc3 100%);
+    background-image: -webkit-linear-gradient(to right, #009dab 0%, #7dccc3 100%);
+    background-image: -ms-linear-gradient(to right, #009dab 0%, #7dccc3 100%);
+    background-image: linear-gradient(to right, #009dab 0%, #7dccc3 100%);
+}
+
+.text-custom {
+    background-image: -moz-linear-gradient(to right, #009dab 0%, #7dccc3 100%);
+    background-image: -webkit-linear-gradient(to right, #009dab 0%, #7dccc3 100%);
+    background-image: -ms-linear-gradient(to right, #009dab 0%, #7dccc3 100%);
+    background-image: linear-gradient(to right, #009dab 0%, #7dccc3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-custom {color: #fff; background-color: #3d5d70; border-color: #3d5d70;}
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom:focus,
+.btn-custom:hover,
+.open > .dropdown-toggle.btn-custom {color: #fff; background-color: #7dccc3; border-color: #7dccc3;}
+
+.text-custom,
+.navbar-custom .navbar-nav .show > .nav-link,
+.navbar-custom .navbar-nav .active > .nav-link,
+.navbar-custom .navbar-nav .nav-link.show,
+.navbar-custom .navbar-nav .nav-link.active,
+.navbar-custom .navbar-nav .nav-link:hover,
+.navbar-custom .navbar-nav .nav-link:focus,
+.header-social-inner li a:hover,
+.portfolio-filter li.active,
+.portfolio-filter li:hover,
+.blog-box .blog-content h5 a:hover,
+.blog-box .blog-social-share > li > a:hover {color: #2575fc;fill:#2575fc;}
+
+.bg-custom,
+.navbar-custom .navbar-nav .active > .nav-link:before,
+.navbar-custom .navbar-nav .active > .nav-link:after,
+.navbar-custom .navbar-nav .nav-link:hover:before,
+.navbar-custom .navbar-nav .nav-link:hover:after,
+.header-follow-close:hover,
+.quote-icon:before,
+.team-box .team-overlay:before {background-color: #2575fc;}
+
+.price-box.active,
+.form-control:focus,
+.portfolio-filter li.active,
+.portfolio-filter li:hover {border-color: #2575fc;}
+
+::selection {color: #fff; text-shadow: none; background: #2575fc;}
+::-moz-selection {color: #fff; text-shadow: none; background: #2575fc;}
+::-webkit-selection {color: #fff; text-shadow: none; background: #2575fc;}
